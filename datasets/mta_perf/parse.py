@@ -1,4 +1,4 @@
-from pandas import DataFrame
+from pandas_teste import DataFrame
 from lxml import objectify
 
 path = 'Performance_MNR.xml'

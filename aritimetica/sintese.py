@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas_teste as pd
 import numpy as np
 
 df = pd.DataFrame([[1.4, np.nan], [7.1, -4.5],

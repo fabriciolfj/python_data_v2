@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas_teste as pd
 
 df = pd.read_csv('ex5.csv', na_values='NULL')
 print(df)

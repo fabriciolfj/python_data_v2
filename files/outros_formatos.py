@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas_teste as pd
 import csv
 
 f = open("ex7.csv")

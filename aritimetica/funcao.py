@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as pd
+import pandas_teste as pd
 
 
 def f1(x):

@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as pd
+import pandas_teste as pd
 
 obj = pd.Series(np.arange(4.), index=['a', 'b', 'c', 'd'])
 
@@ -12,7 +12,7 @@ print(obj2)
 obj2 = obj.iloc[[0, 1, 2]]
 print(obj2)
 
-# com pandas o ultimo e incluido no resultado
+# com pandas_teste o ultimo e incluido no resultado
 obj2 = obj["b":"c"]
 print(obj2)
 

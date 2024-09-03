@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas_teste as pd
 import numpy as np
 
 frame = pd.DataFrame(np.arange(12.).reshape((4, 3)), columns=list("bde"), index=["utah", "ohio", "texas", "oregon"])

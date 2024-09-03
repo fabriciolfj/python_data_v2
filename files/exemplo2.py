@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas_teste as pd
 
 #usando espaco como delimitador
 df = pd.read_csv("ex3.txt", sep="\s+")

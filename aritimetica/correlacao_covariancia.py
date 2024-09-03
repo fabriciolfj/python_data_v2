@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as pd
+import pandas_teste as pd
 
 
 price = pd.read_pickle('yahoo_price.pkl')

@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas_teste as pd
 
 xlsx = pd.ExcelFile('ex1.xlsx')
 

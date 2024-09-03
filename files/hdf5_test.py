@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas_teste as pd
 import numpy as np
 
 #indicado para escrita de grande informacao

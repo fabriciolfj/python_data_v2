@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas_teste as pd
 
 
 path = "../datasets/mta_perf/Performance_MNR.xml"

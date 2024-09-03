@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas_teste as pd
 import lxml.html as lh
 
 tables = pd.read_html("fdic_failed_bank_list.html")

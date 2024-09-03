@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas_teste as pd
 import numpy as np
 
 obj = pd.Series(np.arange(4), index=["d", "a", "b", "c"])

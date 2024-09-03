@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas_teste as pd
 
 chunker = pd.read_csv("ex6.csv", chunksize=1000)
 

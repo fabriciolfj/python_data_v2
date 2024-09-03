@@ -1,7 +1,7 @@
 import json
 import sys
 
-import pandas as pd
+import pandas_teste as pd
 
 obj = """
     { "name" : "Wes",
