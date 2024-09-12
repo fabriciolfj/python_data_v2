@@ -13,5 +13,8 @@ right = pd.DataFrame({
     "rval" : pd.Series([4, 5, 6, 7], dtype="int64")
 })
 
-
+print("right======")
+print(right)
+print("left======")
+print(left)
 print(pd.merge(left, right, on=["key1", "key2"], how="outer"))
