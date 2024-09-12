@@ -1,9 +1,11 @@
 import pandas as pd
+from sqlalchemy.dialects.mssql.information_schema import columns
 
-s1 = pd.Series([0, 1], index=["a", "b"], dtype="Int64")
+s1 = pd.Series([0, 1], index=["a", "b"], dtype="Int64", name="serie 1")
 s2 = pd.Series([2, 3, 4], index=["c", "d", "e"], dtype="Int64")
 s3 = pd.Series([5, 6], index=["f", "g"], dtype="Int64")
 s4 = pd.concat([s1, s3])
+s4.columns = ["serie1", "serie3"]
 
 result = pd.concat([s1, s2, s3])
 print(result)
