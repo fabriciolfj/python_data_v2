@@ -27,4 +27,5 @@ ax.set_ylim([600, 1800])
 
 ax.set_title("importante dates in the 2008-2009 financial crisis")
 
+fig.savefig("teste.svg")
 plt.show()
