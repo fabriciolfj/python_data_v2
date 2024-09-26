@@ -8,6 +8,11 @@ tips["tip_pct"] = tips["tip"] / tips["total_bill"]
 
 
 grouped = tips.groupby(["day", "smoker"])
+print("============as index false")
+print(tips.groupby(["day", "smoker"], as_index=False).sum())
+print("============as index true")
+print(tips.groupby(["day", "smoker"]).sum())
+print("============")
 #mantem o agrupamentgo por dia e fumante, mas focando na coluna tip_pct
 grouped_pct = grouped["tip_pct"]
 print(grouped_pct.head())
